@@ -1,0 +1,17 @@
+{
+  "name": "learnbuild",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A learning-by-building platform backed by MySQL",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.14.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}
